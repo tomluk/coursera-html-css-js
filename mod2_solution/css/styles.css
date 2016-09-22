@@ -2,20 +2,26 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    margin: 0;
+}
+
 h1 {
-  margin-bottom: 15px;
+  margin-bottom: 1%;
   text-align: center
 }
 
 h2 {
 	display: inline-block;
-	border: 3px solid black;
+	border: 1px solid black;
 	padding: 2%
 	font-size: 125%;
 	text-align: center;
-	right: -3px;
+	right: -1px;
 	position: absolute;
-	margin-top: -15px;
+	margin-top: -13px;
 	margin-bottom: 10px;
 	top: 12px;
 	width: 30%; 
@@ -41,13 +47,15 @@ h2 {
 
 .section {
   background-color: #c7c7c7;    
-  border: 3px solid black;    
+  border: 1px solid black;    
   position: relative;    
   height: auto;    
-  margin-right: 2%;    
-  margin-left: 2%;    
-  margin-bottom: 2%;    
-  padding: 2%;    
+  margin-right: 15px;    
+  margin-left: 15px;    
+  margin-bottom: 15px;    
+  padding: 2%;
+  padding-left: 3%;   
+  padding-right: 3%; 
   padding-top: 5%;
 }
 
